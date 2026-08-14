@@ -4,40 +4,213 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Seto's Website</title>
+    <title>Seto — Developer & Creator</title>
 
-    <style>
-        body {
-            margin: 0;
-            background: #111;
-            color: white;
-            font-family: Arial, sans-serif;
-
-            display: flex;
-            justify-content: center;
-            align-items: center;
-
-            height: 100vh;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 50px;
-        }
-
-        p {
-            color: #aaa;
-            font-size: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <div>
-        <h1>Hello, I'm Seto!</h1>
-        <p>Welcome to my website.</p>
-    </div>
+    <!-- Navigation -->
+    <header class="navbar">
+        <a href="index.html" class="logo">SETO</a>
+
+        <nav class="nav-links">
+            <a href="index.html" class="active">Home</a>
+            <a href="projects.html">Projects</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+
+                <p class="eyebrow">DEVELOPER · CREATOR · BUILDER</p>
+
+                <h1>
+                    Hi, I'm <span>Seto.</span>
+                </h1>
+
+                <p class="hero-description">
+                    I build games, tools, automation systems,
+                    and other things that I find interesting.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="projects.html" class="button primary">
+                        View My Work
+                    </a>
+
+                    <a href="about.html" class="button secondary">
+                        About Me
+                    </a>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Featured Projects -->
+        <section class="projects">
+
+            <div class="section-header">
+                <p class="eyebrow">WHAT I'VE BUILT</p>
+
+                <h2>Featured Projects</h2>
+
+                <p>
+                    A collection of things I've worked on.
+                </p>
+            </div>
+
+
+            <div class="project-grid">
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span>PROJECT IMAGE</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            PYTHON · TOOL
+                        </p>
+
+                        <h3>Alts Sync Profiler</h3>
+
+                        <p>
+                            A tool for managing multiple accounts
+                            and synchronizing communication between
+                            macros.
+                        </p>
+
+                        <a href="projects.html" class="project-link">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span>PROJECT IMAGE</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            ROBLOX · LUAU
+                        </p>
+
+                        <h3>Roblox Systems</h3>
+
+                        <p>
+                            Custom gameplay systems, camera controllers,
+                            animations, and other Roblox projects.
+                        </p>
+
+                        <a href="projects.html" class="project-link">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span>PROJECT IMAGE</span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <p class="project-type">
+                            MINECRAFT · JAVA
+                        </p>
+
+                        <h3>Minecraft Mods</h3>
+
+                        <p>
+                            Custom mechanics, items, systems,
+                            and experiments built with Fabric.
+                        </p>
+
+                        <a href="projects.html" class="project-link">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="view-all">
+                <a href="projects.html" class="button secondary">
+                    View All Projects →
+                </a>
+            </div>
+
+        </section>
+
+
+        <!-- Skills -->
+        <section class="skills">
+
+            <div class="section-header">
+
+                <p class="eyebrow">WHAT I USE</p>
+
+                <h2>Tools & Technologies</h2>
+
+            </div>
+
+
+            <div class="skills-list">
+
+                <span>Python</span>
+                <span>Lua / Luau</span>
+                <span>Java</span>
+                <span>Roblox Studio</span>
+                <span>Git</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Seto. Built with HTML, CSS & JavaScript.
+        </p>
+
+    </footer>
+
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
