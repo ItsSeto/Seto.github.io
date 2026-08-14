@@ -1,0 +1,1 @@
+console.log("Seto's website loaded.");
