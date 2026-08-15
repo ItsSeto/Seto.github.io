@@ -14,16 +14,20 @@ const translations = {
             allDescription: "Everything I've done",
 
             manga_light_novels: "Manga & Light Novels",
-            manga_light_novelsDescription: "My Manga & Light Novel Creations",
+            manga_light_novelsDescription:
+                "My Manga & Light Novel Creations",
 
             illustrations: "Illustrations",
-            illustrationsDescription: "Commissions, Fanarts and Original Arts",
+            illustrationsDescription:
+                "Commissions, Fanarts and Original Arts",
 
             minecraft: "Minecraft",
-            minecraftDescription: "Mods & Projects"
+            minecraftDescription:
+                "Mods & Projects"
         }
 
     },
+
 
     jp: {
 
@@ -36,16 +40,20 @@ const translations = {
 
         works: {
             all: "すべての作品",
-            allDescription: "これまでに制作したすべての作品",
+            allDescription:
+                "これまでに制作したすべての作品",
 
             manga_light_novels: "漫画・ライトノベル",
-            manga_light_novelsDescription: "漫画・ライトノベル作品",
+            manga_light_novelsDescription:
+                "漫画・ライトノベル作品",
 
             illustrations: "イラスト",
-            illustrationsDescription: "コミッション・ファンアート・オリジナル作品",
+            illustrationsDescription:
+                "コミッション・ファンアート・オリジナル作品",
 
             minecraft: "Minecraft",
-            minecraftDescription: "MOD・プロジェクト"
+            minecraftDescription:
+                "MOD・プロジェクト"
         }
 
     },
@@ -62,16 +70,20 @@ const translations = {
 
         works: {
             all: "ผลงานทั้งหมด",
-            allDescription: "ทุกสิ่งที่ฉันทำ",
+            allDescription:
+                "ทุกสิ่งที่ฉันเคยสร้าง",
 
-            manga_light_novels: "มังงะ & นวนิยาย",
-            manga_light_novelsDescription: "ศิลปะ & การเล่าเรื่อง",
+            manga_light_novels: "มังงะและไลท์โนเวล",
+            manga_light_novelsDescription:
+                "ผลงานมังงะและไลท์โนเวลของฉัน",
 
             illustrations: "ภาพประกอบ",
-            illustrationsDescription: "การสั่งงาน, ผลงานแฟนอาร์ต & ผลงานดั้งเดิม",
+            illustrationsDescription:
+                "งานคอมมิชชัน แฟนอาร์ต และผลงานต้นฉบับ",
 
             minecraft: "Minecraft",
-            minecraftDescription: "ม็อดและโปรเจกต์ต่าง ๆ"
+            minecraftDescription:
+                "ม็อดและโปรเจกต์ต่าง ๆ"
         }
 
     }
