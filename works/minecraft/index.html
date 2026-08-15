@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-i18n="site.title">Kakola World</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="page-loader">
+    
+        <div class="loader-content">
+    
+            <div class="loader-logo">
+                Please wait.
+            </div>
+    
+            <div class="loader-spinner"></div>
+    
+        </div>
+    
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="./" class="logo">KAKOLA WORLD</a>
+
+        <nav class="nav-links">
+
+            <a href="./" class="active" data-i18n="nav.home">
+                Home
+            </a>
+
+            <!-- Works Dropdown -->
+            <div class="nav-dropdown">
+
+                <button class="dropdown-trigger" type="button">
+                    <span data-i18n="nav.works">Works</span>
+                    <span class="arrow">⌄</span>
+                </button>
+
+                <div class="dropdown-menu">
+
+                    <a href="./works/">
+                        <span data-i18n="works.all">
+                            All Works
+                        </span>
+
+                        <small data-i18n="works.allDescription">
+                            Everything I've done
+                        </small>
+                    </a>
+
+                    <a href="./works/manga_light-novels/">
+                        <span data-i18n="works.manga_light_novels">
+                            Manga & Light Novels
+                        </span>
+
+                        <small data-i18n="works.manga_light_novelsDescription">
+                            My Manga & Light Novel Creations
+                        </small>
+                    </a>
+
+                    <a href="./works/illustrations/">
+                        <span data-i18n="works.illustrations">
+                            Illustrations
+                        </span>
+
+                        <small data-i18n="works.illustrationsDescription">
+                            Commissions, Fanarts and Original Arts
+                        </small>
+                    </a>
+
+                    <a href="./works/minecraft/">
+                        <span data-i18n="works.minecraft">
+                            Minecraft
+                        </span>
+
+                        <small data-i18n="works.minecraftDescription">
+                            Mods & Projects
+                        </small>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <a href="./about/" data-i18n="nav.about">
+                About
+            </a>
+
+            <a href="./contact/" data-i18n="nav.contact">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="navbar-actions">
+
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                ☀️
+            </button>
+
+            <button id="language-toggle" class="language-toggle" aria-label="Change language">
+                EN
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p data-i18n="footer.copyright">
+            © 2026 Seto. Made with Love and Green Tea.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="./js/translations.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
