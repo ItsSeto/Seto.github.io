@@ -566,7 +566,7 @@ footer {
 /* Arrow */
 
 .arrow {
-    font-size: 13px;
+    font-size: 26px;
 
     transition: transform 0.2s ease;
 }
