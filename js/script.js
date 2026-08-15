@@ -39,6 +39,47 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+document.addEventListener("click", (event) => {
+
+    const link =
+        event.target.closest("a");
+
+
+    if (!link) {
+        return;
+    }
+
+
+    const href =
+        link.getAttribute("href");
+
+
+    // Ignore special links
+    if (
+        !href ||
+        href.startsWith("#") ||
+        href.startsWith("http") ||
+        href.startsWith("mailto:") ||
+        link.target === "_blank"
+    ) {
+        return;
+    }
+
+
+    event.preventDefault();
+
+
+    pageLoader.classList.remove("hidden");
+
+
+    setTimeout(() => {
+
+        window.location.href = href;
+
+    }, 400);
+
+});
+
 // ================================
 // WORKS DROPDOWN
 // ================================
@@ -160,7 +201,16 @@ languageToggle.addEventListener("click", () => {
         languages[nextIndex];
 
 
-    setLanguage(currentLanguage);
+    pageLoader.classList.remove("hidden");
+
+
+    setTimeout(() => {
+
+        setLanguage(currentLanguage);
+
+        pageLoader.classList.add("hidden");
+
+    }, 400);
 
 });
 
@@ -182,8 +232,8 @@ window.addEventListener("load", () => {
 
         pageLoader.classList.add("hidden");
 
-    }, 200);
+    }, 1500);
 
 });
 
-console.log("Seto's website loaded.");
+console.log("Kakola World website loaded.");
