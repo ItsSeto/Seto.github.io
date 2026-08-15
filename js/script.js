@@ -39,4 +39,34 @@ document.addEventListener("DOMContentLoaded", () => {
 
 });
 
+// ================================
+// WORKS DROPDOWN
+// ================================
+
+const dropdown = document.querySelector(".nav-dropdown");
+const dropdownTrigger = document.querySelector(".dropdown-trigger");
+
+if (dropdown && dropdownTrigger) {
+
+    dropdownTrigger.addEventListener("click", (event) => {
+
+        event.stopPropagation();
+
+        dropdown.classList.toggle("open");
+
+    });
+
+
+    // Close when clicking outside
+
+    document.addEventListener("click", (event) => {
+
+        if (!dropdown.contains(event.target)) {
+            dropdown.classList.remove("open");
+        }
+
+    });
+
+}
+
 console.log("Seto's website loaded.");

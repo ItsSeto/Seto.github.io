@@ -364,9 +364,18 @@ section {
 
 
 .project-image {
+    height: 200px;
+    
+    display: flex;
+    align-items: center;
+
     background: var(--surface-hover);
 
     color: var(--text-muted);
+
+    font-size: 11px;
+    
+    letter-spacing: 2px;
 }
 
 
@@ -514,4 +523,161 @@ footer {
         align-items: flex-start;
     }
 
+}
+
+/* ================================
+   WORKS DROPDOWN
+================================ */
+
+.nav-dropdown {
+    position: relative;
+}
+
+
+/* Works button */
+
+.dropdown-trigger {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    padding: 0;
+
+    background: none;
+    border: none;
+
+    color: var(--text-secondary);
+
+    font-family: inherit;
+    font-size: 14px;
+
+    cursor: pointer;
+
+    transition: color 0.2s ease;
+}
+
+
+.dropdown-trigger:hover,
+.nav-dropdown.open .dropdown-trigger {
+    color: var(--text);
+}
+
+
+/* Arrow */
+
+.arrow {
+    font-size: 13px;
+
+    transition: transform 0.2s ease;
+}
+
+
+.nav-dropdown:hover .arrow,
+.nav-dropdown.open .arrow {
+    transform: rotate(180deg);
+}
+
+
+/* ================================
+   DROPDOWN MENU
+================================ */
+
+.dropdown-menu {
+    position: absolute;
+
+    top: calc(100% + 15px);
+    left: 50%;
+
+    width: 220px;
+
+    padding: 8px;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: 12px;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.25);
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transform:
+        translateX(-50%) translateY(-5px);
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        visibility 0.2s ease;
+
+    z-index: 1000;
+}
+
+
+/* Desktop hover */
+
+.nav-dropdown:hover .dropdown-menu {
+    opacity: 1;
+
+    visibility: visible;
+
+    transform:
+        translateX(-50%) translateY(0);
+}
+
+
+/* Click / mobile */
+
+.nav-dropdown.open .dropdown-menu {
+    opacity: 1;
+
+    visibility: visible;
+
+    transform:
+        translateX(-50%) translateY(0);
+}
+
+
+/* ================================
+   DROPDOWN LINKS
+================================ */
+
+.dropdown-menu a {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+
+    padding: 12px 14px;
+
+    border-radius: 8px;
+
+    color: var(--text);
+
+    text-decoration: none;
+
+    transition:
+        background 0.2s ease;
+}
+
+
+.dropdown-menu a:hover {
+    background: var(--surface-hover);
+}
+
+
+.dropdown-menu a span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+
+.dropdown-menu a small {
+    color: var(--text-secondary);
+
+    font-size: 11px;
 }

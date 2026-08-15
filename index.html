@@ -13,21 +13,62 @@
 
     <!-- Navigation -->
     <header class="navbar">
+    
         <a href="./" class="logo">SETO</a>
-
+    
         <nav class="nav-links">
-            <a href="./">Home</a>
-            <a href="./works/">Works</a>
+    
+            <a href="./" class="active">Home</a>
+    
+            <!-- Works Dropdown -->
+            <div class="nav-dropdown">
+    
+                <button class="dropdown-trigger" type="button">
+                    Works
+                    <span class="arrow">⌄</span>
+                </button>
+    
+                <div class="dropdown-menu">
+    
+                    <a href="./works/">
+                        <span>All Works</span>
+                        <small>Everything I've built</small>
+                    </a>
+    
+                    <a href="./works/roblox/">
+                        <span>Roblox</span>
+                        <small>Games & Systems</small>
+                    </a>
+    
+                    <a href="./works/python/">
+                        <span>Python</span>
+                        <small>Tools & Automation</small>
+                    </a>
+    
+                    <a href="./works/minecraft/">
+                        <span>Minecraft</span>
+                        <small>Mods & Projects</small>
+                    </a>
+    
+                    <a href="./works/other/">
+                        <span>Other</span>
+                        <small>Experiments</small>
+                    </a>
+    
+                </div>
+    
+            </div>
+    
             <a href="./about/">About</a>
             <a href="./contact/">Contact</a>
+    
         </nav>
-
+    
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
-        ☀️
+            ☀️
         </button>
-
+    
     </header>
-
 
     <!-- Hero -->
     <main>
@@ -49,11 +90,11 @@
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="projects.html" class="button primary">
+                    <a href="works.html" class="button primary">
                         View My Works
                     </a>
 
-                    <a href="about.html" class="button secondary">
+                    <a href="about.html" class="button primary">
                         About Me
                     </a>
                 </div>
