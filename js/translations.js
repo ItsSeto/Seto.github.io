@@ -37,8 +37,6 @@ const translations = {
 
         hero: {
 
-            eyebrow: "Universal Website",
-
             title: "Kakola World",
 
             description:
@@ -149,8 +147,6 @@ const translations = {
 
 
         hero: {
-
-            eyebrow: "ユニバーサル・ウェブサイト",
 
             title: "Kakola World",
 
