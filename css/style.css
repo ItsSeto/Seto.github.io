@@ -238,13 +238,35 @@ section {
    HERO
 ================================ */
 
-.hero {
-    min-height: 100vh;
+.hero-image {
+    flex: 0 0 420px;
 
     display: flex;
+    justify-content: center;
     align-items: center;
 
-    padding-top: 70px;
+    position: relative;
+}
+
+
+.hero-image img {
+    width: 100%;
+    max-width: 420px;
+
+    height: 500px;
+
+    object-fit: cover;
+
+    border-radius: 24px;
+
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+}
+
+
+.hero-image img:hover {
+    transform: translateY(-8px);
 }
 
 
