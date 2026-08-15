@@ -1,5 +1,3 @@
-console.log("Seto's website loaded.");
-
 const themeToggle = document.getElementById("theme-toggle");
 
 const savedTheme = localStorage.getItem("theme");
@@ -27,3 +25,5 @@ themeToggle.addEventListener("click", () => {
     }
 
 });
+
+console.log("Seto's website loaded.");
