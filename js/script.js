@@ -79,6 +79,10 @@ function getTranslation(object, path) {
 }
 
 
+const languageToggle =
+    document.getElementById("language-toggle");
+
+
 function setLanguage(language) {
 
     const elements =
@@ -98,55 +102,65 @@ function setLanguage(language) {
     });
 
 
-    document.documentElement.lang = language;
+    // Set HTML language
+    document.documentElement.lang =
+        language === "jp" ? "ja" : language;
 
+
+    // Save language
     localStorage.setItem("language", language);
 
-    languageToggle.textContent =
-        language === "th" ? "TH" : language === "jp" ? "JP" : "EN";
+
+    // Update button
+    if (language === "jp") {
+
+        languageToggle.textContent = "JP";
+
+    } else if (language === "th") {
+
+        languageToggle.textContent = "TH";
+
+    } else {
+
+        languageToggle.textContent = "EN";
+
+    }
+
 }
 
-const languageToggle =
-    document.getElementById("language-toggle");
 
-const savedLanguage =
+// Get saved language
+let currentLanguage =
     localStorage.getItem("language") || "en";
 
-setLanguage(savedLanguage);
 
-const languageMenu =
-    document.getElementById("language-menu");
-
-
-languageToggle.addEventListener("click", (event) => {
-
-    event.stopPropagation();
-
-    languageMenu.classList.toggle("open");
-
-});
+// Apply saved language
+setLanguage(currentLanguage);
 
 
-languageMenu.querySelectorAll("[data-language]")
-    .forEach(button => {
+// Language button
+languageToggle.addEventListener("click", () => {
 
-        button.addEventListener("click", () => {
-
-            const language =
-                button.dataset.language;
-
-            setLanguage(language);
-
-            languageMenu.classList.remove("open");
-
-        });
-
-    });
+    const languages = [
+        "en",
+        "jp",
+        "th"
+    ];
 
 
-document.addEventListener("click", () => {
+    const currentIndex =
+        languages.indexOf(currentLanguage);
 
-    languageMenu.classList.remove("open");
+
+    const nextIndex =
+        (currentIndex + 1) % languages.length;
+
+
+    currentLanguage =
+        languages[nextIndex];
+
+
+    setLanguage(currentLanguage);
 
 });
 

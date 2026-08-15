@@ -17,7 +17,7 @@ const translations = {
             manga_light_novelsDescription: "My Manga & Light Novel Creations",
 
             illustrations: "Illustrations",
-            illustrationsDescription: "Commissions, Fanarts amd Original Arts",
+            illustrationsDescription: "Commissions, Fanarts and Original Arts",
 
             minecraft: "Minecraft",
             minecraftDescription: "Mods & Projects"
