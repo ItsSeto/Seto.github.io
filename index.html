@@ -24,37 +24,40 @@
             <div class="nav-dropdown">
     
                 <button class="dropdown-trigger" type="button">
-                    Works
+                    <span data-i18n="nav.works">Works</span>
                     <span class="arrow">⌄</span>
                 </button>
     
                 <div class="dropdown-menu">
-    
+                
                     <a href="./works/">
-                        <span>All Works</span>
-                        <small>Everything I've done</small>
+                        <span data-i18n="works.all">All Works</span>
+                        <small data-i18n="works.allDescription">
+                            Everything I've done
+                        </small>
                     </a>
-    
+                
                     <a href="./works/manga_light-novels/">
-                        <span>Manga & Light Novels</span>
-                        <small>My Manga & Light Novel Works</small>
+                        <span data-i18n="works.manga_light_novels">Manga & Light Novels</span>
+                        <small data-i18n="works.manga_light_novelsDescription">
+                            My Manga & Light Novel Creations
+                        </small>
                     </a>
-    
+                
                     <a href="./works/illustrations/">
-                        <span>Illustrations</span>
-                        <small>Commissioned and Personal Arts</small>
+                        <span data-i18n="works.illustrations">Illustrations</span>
+                        <small data-i18n="works.illustrationsDescription">
+                            Commissions, Fanarts amd Original Arts
+                        </small>
                     </a>
-    
+                
                     <a href="./works/minecraft/">
-                        <span>Minecraft</span>
-                        <small>Mods & Projects</small>
+                        <span data-i18n="works.minecraft">Minecraft</span>
+                        <small data-i18n="works.minecraftDescription">
+                            Mods & Projects
+                        </small>
                     </a>
-    
-                    <a href="./works/other/">
-                        <span>Other</span>
-                        <small>Experiments</small>
-                    </a>
-    
+                
                 </div>
     
             </div>
@@ -67,6 +70,17 @@
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
             ☀️
         </button>
+
+    <div class="language-switcher">
+        <button id="language-toggle" class="language-toggle">
+            EN
+        </button>
+    
+        <div id="language-menu" class="language-menu">
+            <button data-language="en">English</button>
+            <button data-language="th">ไทย</button>
+        </div>
+    </div>
     
     </header>
 

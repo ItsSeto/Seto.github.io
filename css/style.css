@@ -82,6 +82,98 @@ body {
     transform: translateY(-2px);
 }
 
+.language-switcher {
+    position: relative;
+}
+
+
+.language-toggle {
+    height: 40px;
+    min-width: 40px;
+
+    padding: 0 10px;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: 8px;
+
+    color: var(--text);
+
+    font-size: 12px;
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: background 0.2s ease;
+}
+
+
+.language-toggle:hover {
+    background: var(--surface-hover);
+}
+
+
+.language-menu {
+    position: absolute;
+
+    top: calc(100% + 10px);
+    right: 0;
+
+    width: 130px;
+
+    padding: 6px;
+
+    background: var(--surface);
+
+    border: 1px solid var(--border);
+
+    border-radius: 10px;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transform: translateY(-5px);
+
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease,
+        visibility 0.2s ease;
+}
+
+
+.language-menu.open {
+    opacity: 1;
+    visibility: visible;
+
+    transform: translateY(0);
+}
+
+
+.language-menu button {
+    width: 100%;
+
+    padding: 10px;
+
+    background: transparent;
+
+    border: none;
+
+    border-radius: 7px;
+
+    color: var(--text);
+
+    text-align: left;
+
+    cursor: pointer;
+}
+
+
+.language-menu button:hover {
+    background: var(--surface-hover);
+}
+
 /* ================================
    NAVBAR
 ================================ */
@@ -566,7 +658,7 @@ footer {
 /* Arrow */
 
 .arrow {
-    font-size: 26px;
+    font-size: 13px;
 
     transition: transform 0.2s ease;
 }
