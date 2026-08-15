@@ -282,18 +282,17 @@ section {
 
 
 .button.primary {
-    background: white;
+    background: var(--button-background);
 
-    color: black;
+    color: var(--button-text);
 }
 
-
 .button.secondary {
-    background: #151515;
+    background: var(--surface);
 
-    color: white;
+    color: var(--text);
 
-    border: 1px solid #292929;
+    border: 1px solid var(--border);
 }
 
 
@@ -344,15 +343,16 @@ section {
 .project-card {
     overflow: hidden;
 
-    background: #111;
+    background: var(--surface);
 
-    border: 1px solid #202020;
+    border: 1px solid var(--border);
 
     border-radius: 12px;
 
     transition:
         transform 0.25s ease,
-        border-color 0.25s ease;
+        border-color 0.25s ease,
+        background 0.25s ease;
 }
 
 
@@ -364,19 +364,9 @@ section {
 
 
 .project-image {
-    height: 200px;
+    background: var(--surface-hover);
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: #171717;
-
-    color: #555;
-
-    font-size: 11px;
-
-    letter-spacing: 2px;
+    color: var(--text-muted);
 }
 
 
