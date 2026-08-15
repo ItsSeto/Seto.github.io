@@ -42,7 +42,7 @@ const translations = {
             title: "Hello, I'm Seto.",
 
             description:
-                "I make things I like. Especially art, tools, and music. I also enjoy making games and mods for fun. I am a self-taught developer and artist, and I love learning new things.",
+                "This is a universal website for my works, projects, and personal information. It serves as a portfolio and a hub for my creative endeavors.",
 
             viewWorks: "View My Works",
 
@@ -155,7 +155,7 @@ const translations = {
             title: "こんにちは、私はセトです。",
 
             description:
-                "自分の好きなものを作っています。特にアート、ツール、音楽が好きです。ゲームやMODを趣味で作るのも好きです。独学で開発とアートを学びながら、いつも新しいことを学ぶことを楽しんでいます。",
+                "ここは、私の作品やプロジェクト、そして個人情報をまとめた総合的なウェブサイトです。ポートフォリオとしての役割に加え、私の創作活動の拠点でもあります。",
 
             viewWorks: "作品を見る",
 
@@ -268,7 +268,7 @@ const translations = {
             title: "สวัสดีครับ ผมชื่อ Seto",
 
             description:
-                "ผมสร้างสิ่งที่ตัวเองชอบ โดยเฉพาะงานศิลปะ เครื่องมือ และดนตรี นอกจากนี้ผมยังชอบสร้างเกมและม็อดเพื่อความสนุกอีกด้วย ผมเป็นนักพัฒนาและศิลปินที่เรียนรู้ด้วยตัวเอง และชอบเรียนรู้สิ่งใหม่ ๆ อยู่เสมอ",
+                "เว็บไซต์นี้เป็นพื้นที่ส่วนกลางสำหรับรวบรวมผลงาน โครงการ และข้อมูลส่วนตัวของผม โดยทำหน้าที่เป็นทั้งแฟ้มสะสมผลงานและศูนย์รวมกิจกรรมเชิงสร้างสรรค์ต่างๆของผม",
 
             viewWorks: "ดูผลงานของฉัน",
 
