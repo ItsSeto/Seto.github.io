@@ -164,4 +164,26 @@ languageToggle.addEventListener("click", () => {
 
 });
 
+/* ========================================
+   PAGE LOADER
+======================================== */
+
+const pageLoader =
+    document.getElementById("page-loader");
+
+
+/*
+    Hide loader when page is ready
+*/
+
+window.addEventListener("load", () => {
+
+    setTimeout(() => {
+
+        pageLoader.classList.add("hidden");
+
+    }, 200);
+
+});
+
 console.log("Seto's website loaded.");
