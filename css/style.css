@@ -239,7 +239,7 @@ section {
 ================================ */
 
 .hero-image {
-    flex: 0 0 320px;
+    flex: 0 0 160px;
 
     display: flex;
     position: relative;
@@ -247,7 +247,7 @@ section {
 
 
 .hero-image img {
-    width: 320px;
+    width: 160px;
     height: auto;
 
     object-fit: contain;
@@ -487,39 +487,6 @@ section {
     margin-top: 40px;
 
     text-align: center;
-}
-
-
-/* ================================
-   SKILLS
-================================ */
-
-.skills {
-    padding: 100px 0;
-}
-
-
-.skills-list {
-    display: flex;
-
-    flex-wrap: wrap;
-
-    gap: 10px;
-}
-
-
-.skills-list span {
-    padding: 12px 18px;
-
-    background: #111;
-
-    border: 1px solid #222;
-
-    border-radius: 8px;
-
-    color: #aaa;
-
-    font-size: 14px;
 }
 
 

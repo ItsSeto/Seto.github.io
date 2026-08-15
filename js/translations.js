@@ -72,17 +72,17 @@ const translations = {
 
             manga_light_novels: {
 
-                type: "Krita · Photoshop",
+                type: "KRITA · PHOTOSHOP",
 
                 description:
-                    "A tool for managing multiple accounts and synchronizing communication between macros."
+                    "A collection of my manga and light novel creations, showcasing my storytelling."
 
             },
 
 
             illustrations: {
 
-                type: "Krita · Mouse Pen",
+                type: "KRITA · MOUSE PEN",
 
                 description:
                     "A showcase of my artistic creations, including commissions, fanarts, and original artworks."
@@ -185,20 +185,20 @@ const translations = {
 
             manga_light_novels: {
 
-                type: "Krita · Photoshop",
+                type: "KRITA · PHOTOSHOP",
 
                 description:
-                    "複数のアカウントを管理し、マクロ間の通信を同期するためのツールです。"
+                    "私のストーリーテリングの魅力を伝える、漫画・ライトノベル作品集です。"
 
             },
 
 
             illustrations: {
 
-                type: "KRITA · マウスペン",
+                type: "KRITA · MOUSE PEN",
 
                 description:
-                    "コミッション・ファンアート・オリジナル作品"
+                    "依頼作品、ファンアート、オリジナル作品など、私の創作活動を紹介するギャラリーです。"
 
             },
 
