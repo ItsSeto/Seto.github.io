@@ -3,7 +3,7 @@ const translations = {
     en: {
 
         site: {
-            title: "Seto — Developer & Artist"
+            title: "Kakola World"
         },
 
 
@@ -115,7 +115,7 @@ const translations = {
     jp: {
 
         site: {
-            title: "Seto — 開発者・アーティスト"
+            title: "Kakola World"
         },
 
 
@@ -228,7 +228,7 @@ const translations = {
     th: {
 
         site: {
-            title: "Seto — นักพัฒนาและศิลปิน"
+            title: "Kakola World"
         },
 
 
