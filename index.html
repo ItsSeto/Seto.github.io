@@ -1,85 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Kakola World</title>
+    <title data-i18n="site.title">Seto — Developer & Artist</title>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
 
     <!-- Navigation -->
     <header class="navbar">
-    
+
         <a href="./" class="logo">SETO</a>
-    
+
         <nav class="nav-links">
-    
-            <a href="./" class="active">Home</a>
-    
+
+            <a href="./" class="active" data-i18n="nav.home">
+                Home
+            </a>
+
             <!-- Works Dropdown -->
             <div class="nav-dropdown">
-    
+
                 <button class="dropdown-trigger" type="button">
                     <span data-i18n="nav.works">Works</span>
                     <span class="arrow">⌄</span>
                 </button>
-    
+
                 <div class="dropdown-menu">
-                
+
                     <a href="./works/">
-                        <span data-i18n="works.all">All Works</span>
+                        <span data-i18n="works.all">
+                            All Works
+                        </span>
+
                         <small data-i18n="works.allDescription">
                             Everything I've done
                         </small>
                     </a>
-                
+
                     <a href="./works/manga_light-novels/">
-                        <span data-i18n="works.manga_light_novels">Manga & Light Novels</span>
+                        <span data-i18n="works.manga_light_novels">
+                            Manga & Light Novels
+                        </span>
+
                         <small data-i18n="works.manga_light_novelsDescription">
                             My Manga & Light Novel Creations
                         </small>
                     </a>
-                
+
                     <a href="./works/illustrations/">
-                        <span data-i18n="works.illustrations">Illustrations</span>
+                        <span data-i18n="works.illustrations">
+                            Illustrations
+                        </span>
+
                         <small data-i18n="works.illustrationsDescription">
-                            Commissions, Fanarts amd Original Arts
+                            Commissions, Fanarts and Original Arts
                         </small>
                     </a>
-                
+
                     <a href="./works/minecraft/">
-                        <span data-i18n="works.minecraft">Minecraft</span>
+                        <span data-i18n="works.minecraft">
+                            Minecraft
+                        </span>
+
                         <small data-i18n="works.minecraftDescription">
                             Mods & Projects
                         </small>
                     </a>
-                
+
                 </div>
-    
+
             </div>
-    
-            <a href="./about/">About</a>
-            <a href="./contact/">Contact</a>
-    
+
+            <a href="./about/" data-i18n="nav.about">
+                About
+            </a>
+
+            <a href="./contact/" data-i18n="nav.contact">
+                Contact
+            </a>
+
         </nav>
-    
+
+
         <div class="navbar-actions">
 
             <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
                 ☀️
             </button>
-        
+
             <button id="language-toggle" class="language-toggle" aria-label="Change language">
                 EN
             </button>
-        
+
         </div>
-    
+
     </header>
+
 
     <!-- Hero -->
     <main>
@@ -88,26 +110,31 @@
 
             <div class="hero-content">
 
-                <p class="eyebrow">DEVELOPER · ARTIST</p>
+                <p class="eyebrow" data-i18n="hero.eyebrow">
+                    DEVELOPER · ARTIST
+                </p>
 
-                <h1>
+                <h1 data-i18n="hero.title">
                     Hello, I'm <span>Seto.</span>
                 </h1>
 
-                <p class="hero-description">
-                    
-                    I made stuff i like. Especially Arts, Tools and Musics.
-                    I also like to make games and mods for fun. I am a self-taught developer and artist, and I love to learn new things.
+                <p class="hero-description" data-i18n="hero.description">
+                    I made stuff I like. Especially Arts, Tools and
+                    Musics. I also like to make games and mods for fun.
+                    I am a self-taught developer and artist, and I love
+                    to learn new things.
                 </p>
 
                 <div class="hero-buttons">
-                    <a href="works.html" class="button primary">
+
+                    <a href="./works/" class="button primary" data-i18n="hero.viewWorks">
                         View My Works
                     </a>
 
-                    <a href="about.html" class="button primary">
+                    <a href="./about/" class="button primary" data-i18n="hero.aboutMe">
                         About Me
                     </a>
+
                 </div>
 
             </div>
@@ -119,39 +146,51 @@
         <section class="projects">
 
             <div class="section-header">
-                <p class="eyebrow">WHAT I'VE DONE SO FAR</p>
 
-                <h2>Featured Projects</h2>
+                <p class="eyebrow" data-i18n="projects.eyebrow">
+                    WHAT I'VE DONE SO FAR
+                </p>
 
-                <p>
+                <h2 data-i18n="projects.title">
+                    Featured Projects
+                </h2>
+
+                <p data-i18n="projects.description">
                     A collection of things I've worked on.
                 </p>
+
             </div>
 
 
             <div class="project-grid">
 
+
+                <!-- Alts Sync Profiler -->
                 <article class="project-card">
 
                     <div class="project-image">
-                        <span>PROJECT IMAGE</span>
+                        <span data-i18n="projects.imagePlaceholder">
+                            PROJECT IMAGE
+                        </span>
                     </div>
 
                     <div class="project-content">
 
-                        <p class="project-type">
+                        <p class="project-type" data-i18n="projects.alts.type">
                             PYTHON · TOOL
                         </p>
 
-                        <h3>Alts Sync Profiler</h3>
+                        <h3>
+                            Alts Sync Profiler
+                        </h3>
 
-                        <p>
+                        <p data-i18n="projects.alts.description">
                             A tool for managing multiple accounts
                             and synchronizing communication between
                             macros.
                         </p>
 
-                        <a href="projects.html" class="project-link">
+                        <a href="./works/" class="project-link" data-i18n="projects.viewProject">
                             View Project →
                         </a>
 
@@ -160,26 +199,31 @@
                 </article>
 
 
+                <!-- Roblox -->
                 <article class="project-card">
 
                     <div class="project-image">
-                        <span>PROJECT IMAGE</span>
+                        <span data-i18n="projects.imagePlaceholder">
+                            PROJECT IMAGE
+                        </span>
                     </div>
 
                     <div class="project-content">
 
-                        <p class="project-type">
+                        <p class="project-type" data-i18n="projects.roblox.type">
                             ROBLOX · LUAU
                         </p>
 
-                        <h3>Roblox Systems</h3>
+                        <h3>
+                            Roblox Systems
+                        </h3>
 
-                        <p>
+                        <p data-i18n="projects.roblox.description">
                             Custom gameplay systems, camera controllers,
                             animations, and other Roblox projects.
                         </p>
 
-                        <a href="projects.html" class="project-link">
+                        <a href="./works/" class="project-link" data-i18n="projects.viewProject">
                             View Project →
                         </a>
 
@@ -188,26 +232,31 @@
                 </article>
 
 
+                <!-- Minecraft -->
                 <article class="project-card">
 
                     <div class="project-image">
-                        <span>PROJECT IMAGE</span>
+                        <span data-i18n="projects.imagePlaceholder">
+                            PROJECT IMAGE
+                        </span>
                     </div>
 
                     <div class="project-content">
 
-                        <p class="project-type">
+                        <p class="project-type" data-i18n="projects.minecraft.type">
                             MINECRAFT · JAVA
                         </p>
 
-                        <h3>Minecraft Mods</h3>
+                        <h3>
+                            Minecraft Mods
+                        </h3>
 
-                        <p>
+                        <p data-i18n="projects.minecraft.description">
                             Custom mechanics, items, systems,
                             and experiments built with Fabric.
                         </p>
 
-                        <a href="projects.html" class="project-link">
+                        <a href="./works/" class="project-link" data-i18n="projects.viewProject">
                             View Project →
                         </a>
 
@@ -219,9 +268,11 @@
 
 
             <div class="view-all">
-                <a href="projects.html" class="button secondary">
+
+                <a href="./works/" class="button secondary" data-i18n="projects.viewAll">
                     View All Projects →
                 </a>
+
             </div>
 
         </section>
@@ -232,8 +283,9 @@
     <!-- Footer -->
     <footer>
 
-        <p>
-            © 2026 Seto. Made with Love and Green Tea. All rights reserved.
+        <p data-i18n="footer.copyright">
+            © 2026 Seto. Made with Love and Green Tea.
+            All rights reserved.
         </p>
 
     </footer>
@@ -243,4 +295,5 @@
     <script src="./js/script.js"></script>
 
 </body>
+
 </html>
