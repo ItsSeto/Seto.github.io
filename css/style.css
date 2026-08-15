@@ -239,7 +239,7 @@ section {
 ================================ */
 
 .hero-image {
-    flex: 0 0 160px;
+    flex: 0 0 200px;
 
     display: flex;
     position: relative;
@@ -247,7 +247,7 @@ section {
 
 
 .hero-image img {
-    width: 160px;
+    width: 200px;
     height: auto;
 
     object-fit: contain;
