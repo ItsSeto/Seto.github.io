@@ -37,9 +37,9 @@ const translations = {
 
         hero: {
 
-            eyebrow: "DEVELOPER · ARTIST",
+            eyebrow: "Universal Website",
 
-            title: "Hello, I'm Seto.",
+            title: "Kakola World",
 
             description:
                 "This is a universal website for my works, projects, and personal information. It serves as a portfolio and a hub for my creative endeavors.",
@@ -70,9 +70,9 @@ const translations = {
                 "View All Projects →",
 
 
-            alts: {
+            manga_light_novels: {
 
-                type: "PYTHON · TOOL",
+                type: "Krita · Photoshop",
 
                 description:
                     "A tool for managing multiple accounts and synchronizing communication between macros."
@@ -80,12 +80,12 @@ const translations = {
             },
 
 
-            roblox: {
+            illustrations: {
 
-                type: "ROBLOX · LUAU",
+                type: "Krita · Mouse Pen",
 
                 description:
-                    "Custom gameplay systems, camera controllers, animations, and other Roblox projects."
+                    "A showcase of my artistic creations, including commissions, fanarts, and original artworks."
 
             },
 
@@ -150,9 +150,9 @@ const translations = {
 
         hero: {
 
-            eyebrow: "開発者 · アーティスト",
+            eyebrow: "ユニバーサル・ウェブサイト",
 
-            title: "こんにちは、私はセトです。",
+            title: "Kakola World",
 
             description:
                 "ここは、私の作品やプロジェクト、そして個人情報をまとめた総合的なウェブサイトです。ポートフォリオとしての役割に加え、私の創作活動の拠点でもあります。",
@@ -183,9 +183,9 @@ const translations = {
                 "すべての作品を見る →",
 
 
-            alts: {
+            manga_light_novels: {
 
-                type: "PYTHON · ツール",
+                type: "Krita · Photoshop",
 
                 description:
                     "複数のアカウントを管理し、マクロ間の通信を同期するためのツールです。"
@@ -193,12 +193,12 @@ const translations = {
             },
 
 
-            roblox: {
+            illustrations: {
 
-                type: "ROBLOX · LUAU",
+                type: "KRITA · マウスペン",
 
                 description:
-                    "カスタムゲームシステム、カメラコントローラー、アニメーションなど、さまざまなRobloxプロジェクトを制作しています。"
+                    "コミッション・ファンアート・オリジナル作品"
 
             },
 
@@ -219,119 +219,6 @@ const translations = {
 
             copyright:
                 "© 2026 Seto. 愛と緑茶を込めて制作しました。All rights reserved."
-
-        }
-
-    },
-
-
-    th: {
-
-        site: {
-            title: "Kakola World"
-        },
-
-
-        nav: {
-            home: "หน้าแรก",
-            works: "ผลงาน",
-            about: "เกี่ยวกับ",
-            contact: "ติดต่อ"
-        },
-
-
-        works: {
-
-            all: "ผลงานทั้งหมด",
-            allDescription:
-                "ทุกสิ่งที่ฉันเคยสร้าง",
-
-            manga_light_novels: "มังงะและไลท์โนเวล",
-            manga_light_novelsDescription:
-                "ผลงานมังงะและไลท์โนเวลของฉัน",
-
-            illustrations: "ภาพประกอบ",
-            illustrationsDescription:
-                "งานคอมมิชชัน แฟนอาร์ต และผลงานต้นฉบับ",
-
-            minecraft: "Minecraft",
-            minecraftDescription:
-                "ม็อดและโปรเจกต์ต่าง ๆ"
-
-        },
-
-
-        hero: {
-
-            eyebrow: "นักพัฒนา · ศิลปิน",
-
-            title: "สวัสดีครับ ผมชื่อ Seto",
-
-            description:
-                "เว็บไซต์นี้เป็นพื้นที่ส่วนกลางสำหรับรวบรวมผลงาน โครงการ และข้อมูลส่วนตัวของผม โดยทำหน้าที่เป็นทั้งแฟ้มสะสมผลงานและศูนย์รวมกิจกรรมเชิงสร้างสรรค์ต่างๆของผม",
-
-            viewWorks: "ดูผลงานของฉัน",
-
-            aboutMe: "เกี่ยวกับฉัน"
-
-        },
-
-
-        projects: {
-
-            eyebrow: "ผลงานที่ฉันสร้างมา",
-
-            title: "โปรเจกต์เด่น",
-
-            description:
-                "รวมผลงานต่าง ๆ ที่ฉันเคยสร้าง",
-
-            imagePlaceholder:
-                "รูปภาพโปรเจกต์",
-
-            viewProject:
-                "ดูโปรเจกต์ →",
-
-            viewAll:
-                "ดูผลงานทั้งหมด →",
-
-
-            alts: {
-
-                type: "PYTHON · เครื่องมือ",
-
-                description:
-                    "เครื่องมือสำหรับจัดการหลายบัญชีและซิงโครไนซ์การสื่อสารระหว่างมาโคร"
-
-            },
-
-
-            roblox: {
-
-                type: "ROBLOX · LUAU",
-
-                description:
-                    "ระบบเกม กล้องควบคุมตัวละคร แอนิเมชัน และโปรเจกต์ Roblox อื่น ๆ ที่สร้างขึ้นเอง"
-
-            },
-
-
-            minecraft: {
-
-                type: "MINECRAFT · JAVA",
-
-                description:
-                    "ระบบเกม ไอเทม กลไกต่าง ๆ และโปรเจกต์ทดลองที่สร้างด้วย Fabric"
-
-            }
-
-        },
-
-
-        footer: {
-
-            copyright:
-                "© 2026 Seto. สร้างขึ้นด้วยความรักและชาเขียว สงวนลิขสิทธิ์"
 
         }
 

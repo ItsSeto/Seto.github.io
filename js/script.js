@@ -157,10 +157,6 @@ function setLanguage(language) {
 
         languageToggle.textContent = "JP";
 
-    } else if (language === "th") {
-
-        languageToggle.textContent = "TH";
-
     } else {
 
         languageToggle.textContent = "EN";
@@ -184,8 +180,7 @@ languageToggle.addEventListener("click", () => {
 
     const languages = [
         "en",
-        "jp",
-        "th"
+        "jp"
     ];
 
 
