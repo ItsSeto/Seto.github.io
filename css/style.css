@@ -423,6 +423,8 @@ section {
     display: flex;
     align-items: center;
 
+    justify-content: center;
+
     background: var(--surface-hover);
 
     color: var(--text-muted);
