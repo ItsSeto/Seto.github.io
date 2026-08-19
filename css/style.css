@@ -236,8 +236,8 @@ section {
 
 .page-title {
     text-align: center;
-    font-size: 3rem;
-    margin: 40px 0 20px;
+    padding-top: 100px;
+    margin: 0 0 30px;
 }
 
 /* ================================
