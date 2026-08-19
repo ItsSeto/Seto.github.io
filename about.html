@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title data-i18n="site.title">Kakola World</title>
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div id="page-loader">
+    
+        <div class="loader-content">
+    
+            <div class="loader-logo">
+                Please wait.
+            </div>
+    
+            <div class="loader-spinner"></div>
+    
+        </div>
+    
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="./" class="logo">KAKOLA WORLD</a>
+
+        <nav class="nav-links">
+
+            <a href="./" class="active" data-i18n="nav.home">
+                Home
+            </a>
+
+            <!-- Works Dropdown -->
+            <div class="nav-dropdown">
+
+                <button class="dropdown-trigger" type="button">
+                    <span data-i18n="nav.works">Works</span>
+                    <span class="arrow">⌄</span>
+                </button>
+
+                <div class="dropdown-menu">
+
+                    <a href="./works/">
+                        <span data-i18n="works.all">
+                            All Works
+                        </span>
+
+                        <small data-i18n="works.allDescription">
+                            Everything I've done
+                        </small>
+                    </a>
+
+                    <a href="./works/manga_light-novels/">
+                        <span data-i18n="works.manga_light_novels">
+                            Manga & Light Novels
+                        </span>
+
+                        <small data-i18n="works.manga_light_novelsDescription">
+                            My Manga & Light Novel Creations
+                        </small>
+                    </a>
+
+                    <a href="./works/illustrations/">
+                        <span data-i18n="works.illustrations">
+                            Illustrations
+                        </span>
+
+                        <small data-i18n="works.illustrationsDescription">
+                            Commissions, Fanarts and Original Arts
+                        </small>
+                    </a>
+
+                    <a href="./works/minecraft/">
+                        <span data-i18n="works.minecraft">
+                            Minecraft
+                        </span>
+
+                        <small data-i18n="works.minecraftDescription">
+                            Mods & Projects
+                        </small>
+                    </a>
+
+                </div>
+
+            </div>
+
+            <a href="./about/" data-i18n="nav.about">
+                About
+            </a>
+
+            <a href="./contact/" data-i18n="nav.contact">
+                Contact
+            </a>
+
+        </nav>
+
+
+        <div class="navbar-actions">
+
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+                ☀️
+            </button>
+
+            <button id="language-toggle" class="language-toggle" aria-label="Change language">
+                EN
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- Hero -->
+    <main>
+
+        <section class="hero">
+        
+            <div class="hero-content">
+        
+                <h1>
+                    <p data-i18n="hero.title">
+                        Kakola World
+                    </p>
+                </h1>
+
+                <div class="hero-image">
+                
+                    <img src="./images/hero.png" alt="Kakola World">
+                
+                </div>
+        
+                <p class="hero-description" data-i18n="hero.description">
+                    This is a universal website for my works, projects, and personal information. It serves as a portfolio and a hub for my creative endeavors.
+                </p>
+        
+                <div class="hero-buttons">
+        
+                    <a href="./works/" class="button primary" data-i18n="hero.viewWorks">
+                        View My Works
+                    </a>
+        
+                    <a href="./about/" class="button primary" data-i18n="hero.aboutMe">
+                        About Me
+                    </a>
+        
+                </div>
+        
+            </div>
+        
+        </section>
+
+
+        <!-- Featured Projects -->
+        <section class="projects">
+
+            <div class="section-header">
+
+                <p class="eyebrow" data-i18n="projects.eyebrow">
+                    WHAT I'VE DONE SO FAR
+                </p>
+
+                <h2 data-i18n="projects.title">
+                    Featured Projects
+                </h2>
+
+                <p data-i18n="projects.description">
+                    A collection of things I've worked on.
+                </p>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <!-- Manga & Light Novels -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span data-i18n="projects.imagePlaceholder">
+                            PROJECT IMAGE
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Manga & Light Novels
+                        </h3>
+
+                        <p data-i18n="projects.manga_light_novels.description">
+                            A collection of my manga and light novel creations, showcasing my storytelling.
+                        </p>
+
+                        <a href="./works/" class="project-link" data-i18n="projects.viewProject">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Illustrations -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span data-i18n="projects.imagePlaceholder">
+                            PROJECT IMAGE
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Illustrations
+                        </h3>
+
+                        <p data-i18n="projects.illustrations.description">
+                            A showcase of my artistic creations, including commissions, fanarts, and original artworks.
+                        </p>
+
+                        <a href="./works/" class="project-link" data-i18n="projects.viewProject">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Minecraft -->
+                <article class="project-card">
+
+                    <div class="project-image">
+                        <span data-i18n="projects.imagePlaceholder">
+                            PROJECT IMAGE
+                        </span>
+                    </div>
+
+                    <div class="project-content">
+
+                        <h3>
+                            Minecraft Mods
+                        </h3>
+
+                        <p data-i18n="projects.minecraft.description">
+                            Custom mechanics, items, systems,
+                            and experiments built with Fabric.
+                        </p>
+
+                        <a href="./works/" class="project-link" data-i18n="projects.viewProject">
+                            View Project →
+                        </a>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+
+            <div class="view-all">
+
+                <a href="./works/" class="button secondary" data-i18n="projects.viewAll">
+                    View All Projects →
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p data-i18n="footer.copyright">
+            © 2026 Seto. Made with Love and Green Tea.
+            All rights reserved.
+        </p>
+
+    </footer>
+
+
+    <script src="./js/translations.js"></script>
+    <script src="./js/script.js"></script>
+
+</body>
+
+</html>
