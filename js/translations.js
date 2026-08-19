@@ -70,8 +70,6 @@ const translations = {
 
             manga_light_novels: {
 
-                type: "KRITA · PHOTOSHOP",
-
                 description:
                     "A collection of my manga and light novel creations, showcasing my storytelling."
 
@@ -80,8 +78,6 @@ const translations = {
 
             illustrations: {
 
-                type: "KRITA · MOUSE PEN",
-
                 description:
                     "A showcase of my artistic creations, including commissions, fanarts, and original artworks."
 
@@ -89,8 +85,6 @@ const translations = {
 
 
             minecraft: {
-
-                type: "MINECRAFT · JAVA",
 
                 description:
                     "Custom mechanics, items, systems, and experiments built with Fabric."
@@ -181,8 +175,6 @@ const translations = {
 
             manga_light_novels: {
 
-                type: "KRITA · PHOTOSHOP",
-
                 description:
                     "私のストーリーテリングの魅力を伝える、漫画・ライトノベル作品集です。"
 
@@ -191,8 +183,6 @@ const translations = {
 
             illustrations: {
 
-                type: "KRITA · MOUSE PEN",
-
                 description:
                     "依頼作品、ファンアート、オリジナル作品など、私の創作活動を紹介するギャラリーです。"
 
@@ -200,8 +190,6 @@ const translations = {
 
 
             minecraft: {
-
-                type: "MINECRAFT · JAVA",
 
                 description:
                     "Fabricを使用して制作したカスタムゲームシステム、アイテム、機能などの実験的なプロジェクトです。"
